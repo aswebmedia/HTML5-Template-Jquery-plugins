@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fresh Ideas</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Allura' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--SCRIPTS-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.grid').masonry({
+			  // options...
+			  itemSelector: '.grid-item',
+			  columnWidth: 220
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		
+		<header role="banner">
+			<a href="#" id="logo" rel="home">
+				<h1>Fresh<span><i class="fa fa-info"></i></span>deas</h1>
+				<p>We serve fresh ideas	every day</p>
+			</a>
+			<nav role="navigation">
+				<ul id="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a class="active" href="#">Portfolio</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main id="portfolio" role="main">
+			<div class="content_info">
+				<h1>Porfolio</h1>
+				<div class="grid">
+				  <div class="grid-item">
+				  	<img src="img/masonry/img1.jpg" alt="">
+				  </div>
+				  <div class="grid-item">
+				  	<img src="img/masonry/img2.jpg" alt="">
+				  </div>
+				  <div class="grid-item">
+				  	<img src="img/masonry/img3.jpg" alt="">
+				  </div>
+				  <div class="grid-item">
+				  	<img src="img/masonry/img4.jpg" alt="">
+				  </div>
+				  <div class="grid-item">
+				  	<img src="img/masonry/img5.jpg" alt="">
+				  </div>
+				  <div class="grid-item">
+				  	<img src="img/masonry/img6.jpg" alt="">
+				  </div>
+				  <div class="grid-item">
+				  	<img src="img/masonry/img7.jpg" alt="">
+				  </div>
+				</div>
+			</div>
+
+			<aside>
+				<section id="latestNews">
+					<h4>Latest News</h4>
+					<article>
+						<h5>Lorem Ipsum</h5>
+						<time datetime="2014-10-03 20:00">03.10.2014</time>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut perferendis, rem eaque necessitatibus consequuntur accusantium, odit harum deserunt nobis quo voluptates dolores facere doloremque numquam et ullam quaerat expedita? Veritatis! <a href="">Read More</a></p>
+					</article>
+					<article>
+						<h5>Lorem Ipsum</h5>
+						<time datetime="2014-10-03 20:00">03.12.2014</time>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut perferendis, rem eaque necessitatibus consequuntur accusantium, odit harum deserunt nobis quo voluptates dolores facere doloremque numquam et ullam quaerat expedita? Veritatis! <a href="">Read More</a></p>
+					</article>
+					<article>
+						<h5>Lorem Ipsum</h5>
+						<time datetime="2014-10-03 20:00">03.12.2014</time>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut perferendis, rem eaque necessitatibus consequuntur accusantium, odit harum deserunt nobis quo voluptates dolores facere doloremque numquam et ullam quaerat expedita? Veritatis! <a href="">Read More</a></p>
+					</article>
+				</section>
+			</aside>
+
+		</main>
+
+		<footer role="contentinfo">
+			<p>2014&copy;lbert | <a href="">ESPAI.es</a> | All rights reserved</p>
+			<div id="social">
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+</body>
+</html>
